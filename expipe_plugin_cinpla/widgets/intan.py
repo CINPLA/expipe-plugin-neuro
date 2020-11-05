@@ -219,7 +219,7 @@ def process_intan_view(project):
     rightbox = ipywidgets.VBox([ipywidgets.Label('Processing options', style={'description_width': 'initial'},
                                                  layout={'width': 'initial'}),
                                 spikesort, compute_lfp, compute_mua, servers, other_settings,
-                                bad_channels, bad_threshold, min_spikes, min_isi, remove_artifacts, reference,
+                                bad_channels, bad_threshold, min_fr, min_isi, remove_artifacts, reference,
                                 split_group, custom_split],
                                layout={'width': 'initial'})
 

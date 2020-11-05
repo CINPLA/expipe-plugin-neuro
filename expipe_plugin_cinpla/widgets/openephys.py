@@ -237,7 +237,7 @@ def process_openephys_view(project):
             'Processing options', style={'description_width': 'initial'},
             layout={'width': 'initial'}),
         spikesort, compute_lfp, compute_mua, servers, other_settings,
-        bad_channels, bad_threshold, min_spikes, min_isi, reference, split_group, custom_split],
+        bad_channels, bad_threshold, min_fr, min_isi, reference, split_group, custom_split],
         layout={'width': 'initial'})
 
     run = ipywidgets.Button(
